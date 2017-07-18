@@ -1,0 +1,6 @@
+myfile = open("demo.txt", 'w+')
+myfile.write("Python is Fun")
+myfile.write("\n Today I learned a lot")
+myfile.seek(0)
+print(myfile.read())
+myfile.close()
